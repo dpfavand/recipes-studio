@@ -6,9 +6,9 @@ export default defineType({
   name: 'ingredientPicker',
   title: 'Ingredient Picker',
   type: 'array',
-  // components: {
-  //   input: IngredientPicker,
-  // },
+  components: {
+    input: IngredientPicker,
+  },
   of: [
     defineField({
       name: 'key',

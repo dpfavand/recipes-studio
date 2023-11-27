@@ -21,8 +21,6 @@ export default defineType({
   type: 'document',
   icon: RectangleStackIcon,
   fields: [
-    defineField({name: 'ingredientPicker', type: 'ingredientPicker'}),
-    defineField({name: 'amount', type: 'ingredientAmount'}),
     defineField({name: 'premium', type: 'boolean', initialValue: true}),
     defineField({name: 'title', type: 'string'}),
     defineField({

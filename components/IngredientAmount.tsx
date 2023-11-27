@@ -1,7 +1,7 @@
 import React from 'react'
 import {Stack, Text, Label, Select, Flex, TextInput} from '@sanity/ui'
 import {ObjectInputProps} from 'sanity'
-import {set, unset} from 'sanity/form'
+import {set, unset} from 'sanity'
 
 import {getUnitByName, Standard, units} from './lib/amountSettings'
 import convertedAmounts from './lib/convertedAmounts'
